@@ -61,7 +61,7 @@ main(){ // block program utama
 		int pilihan = menu();
 		switch (pilihan){
 			case 1:
-					login(input entry[200]);
+					login();
 				break;
 			case 2:
 					search();
@@ -133,7 +133,7 @@ main(){ // block program utama
 	cout << "---------------------------------------------------------------------\n";
  }
  
- void login(input entry[200]){
+ void login(){
 	char username[10],password[8];
 	system("cls");
 	cout << "---------------------------------------------------------------------\n";
